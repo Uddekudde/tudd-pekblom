@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tudd-pekblom/static/css/main.5e4e9510.chunk.css",
+    "main.js": "/tudd-pekblom/static/js/main.a817ca3a.chunk.js",
+    "main.js.map": "/tudd-pekblom/static/js/main.a817ca3a.chunk.js.map",
+    "runtime-main.js": "/tudd-pekblom/static/js/runtime-main.1a4b33be.js",
+    "runtime-main.js.map": "/tudd-pekblom/static/js/runtime-main.1a4b33be.js.map",
+    "static/js/2.fcdd9017.chunk.js": "/tudd-pekblom/static/js/2.fcdd9017.chunk.js",
+    "static/js/2.fcdd9017.chunk.js.map": "/tudd-pekblom/static/js/2.fcdd9017.chunk.js.map",
+    "index.html": "/tudd-pekblom/index.html",
+    "precache-manifest.7670247562194b2756f7c8e7b4bc544b.js": "/tudd-pekblom/precache-manifest.7670247562194b2756f7c8e7b4bc544b.js",
+    "service-worker.js": "/tudd-pekblom/service-worker.js",
+    "static/css/main.5e4e9510.chunk.css.map": "/tudd-pekblom/static/css/main.5e4e9510.chunk.css.map",
+    "static/media/logo.svg": "/tudd-pekblom/static/media/logo.25bf045c.svg"
+  }
+}
