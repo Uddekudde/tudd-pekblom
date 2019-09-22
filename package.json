@@ -1,31 +1,13 @@
 {
-  "name": "tudd-pekblom",
-  "version": "0.1.0",
   "private": true,
-  "homepage": "https://uddekudde.github.io/tudd-pekblom/",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject",
     "eslint": "eslint .",
     "eslint:fix": "eslint . --fix",
-    "format": "prettier --write **/*.{js,css,scss,tsx,json}"
-  },
-  "dependencies": {
-    "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.5",
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "@testing-library/jest-dom": "^4.1.0",
-    "node-sass": "^4.12.0",
-    "gh-pages": "^2.1.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2",
-    "typescript": "^3.6.3"
+    "format": "prettier --write **/*.{js,jsx,ts,tsx,css,scss,json}"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.0",
@@ -34,25 +16,9 @@
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.14.3",
-    "@testing-library/react": "^9.1.4",
     "husky": "^3.0.5",
     "lint-staged": "^9.3.0",
     "prettier": "^1.18.2"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "husky": {
     "hooks": {
@@ -60,11 +26,11 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,css,scss,tsx,json}": [
+    "**/*.{js,jsx,ts,tsx,css,scss,json}": [
       "prettier --write",
       "git add"
     ],
-    "**/*.{js,tsx}": [
+    "**/*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "git add"
     ]
